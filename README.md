@@ -16,6 +16,7 @@ A plist is created, placed in the appropriate place and loaded to ensure that th
 
 Allows you to use custom images from any folder placed in any directory
 Gives you the option to use a dynamic system theme or just use a single light or dark theme all the time
+Cuts the API calls to just 2 per day
 
 Limitation : There is no proper way to support multiple spaces yet it seems
 
