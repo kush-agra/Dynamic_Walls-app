@@ -17,6 +17,8 @@ A plist is created, placed in the appropriate place and loaded to ensure that th
 Allows you to use custom images from any folder placed in any directory
 Gives you the option to use a dynamic system theme or just use a single light or dark theme all the time
 
+Limitation : There is no proper way to support multiple spaces yet it seems
+
 # Set Up
 
 1. [Download the latest release](https://github.com/kush-agra/Dynamic_Walls-app/releases) and place the app in an appropriate location, preferably in the applications folder but you can leave it in the Downloads folder for it to be stealthy-not visible
