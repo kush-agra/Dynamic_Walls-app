@@ -1,6 +1,6 @@
 #!/bin/bash
 var=$USER
-var2=${dir%"Plist Generator.command"}Scripts
+var2=${dir%"Dynamic_Walls_plistGenerator.command"}Scripts
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
