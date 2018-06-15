@@ -15,7 +15,9 @@ A plist is created, placed in the appropriate place and loaded to ensure that th
 # Features
 
 Allows you to use custom images from any folder placed in any directory
+
 Gives you the option to use a dynamic system theme or just use a single light or dark theme all the time
+
 Cuts the API calls to just 2 per day
 
 Limitation : There is no proper way to support multiple spaces yet it seems
@@ -29,7 +31,9 @@ Limitation : There is no proper way to support multiple spaces yet it seems
 # Image Folder Format
 
 Folder needs to have 16 images
+
 All with the same name and name ending with a 3 digit number
+
 Eg : mojave_dynamic - 001.png, mojave_dynamic - 002.png, mojave_dynamic - 003.png...
 
 #### Images Format
