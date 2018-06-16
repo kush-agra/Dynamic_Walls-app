@@ -1,6 +1,7 @@
 #!/bin/bash
 var=$USER
-var2=${dir%"Dynamic_Walls_plistGenerator.command"}Scripts
+launchctl unload -w /Users/$var/Library/LaunchAgents/Dynamic_Walls.Scheduler.plist
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/Scripts
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
@@ -12,7 +13,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
         	<key>ProgramArguments</key>
         	<array>
                 	<string>osascript</string>
-			<string>$var2/Dynamic_Walls.scpt</string>
+			<string>$DIR/Dynamic_Walls.scpt</string>
 		</array>
 		<key>RunAtLoad</key>
 		<true/>
