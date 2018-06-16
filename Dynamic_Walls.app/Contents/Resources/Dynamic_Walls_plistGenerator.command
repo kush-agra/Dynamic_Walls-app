@@ -7,7 +7,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <plist version=\"1.0\">
 	<dict>
 		<key>Label</key>
-		<string>Dynamic_Walls.Scheduler</string>
+		<string>wallpaper</string>
 		<key>Program</key>
         	<string>/usr/bin/osascript</string>
         	<key>ProgramArguments</key>
