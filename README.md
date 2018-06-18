@@ -23,6 +23,7 @@ Cuts the API calls to just 2 per day
 Limitation : There is no proper way to support multiple spaces yet it seems
 
 # Set Up
+Please disable change wallpaper every X minutes in the desktop system preferences for this to work correctly :)
 
 1. [Download the latest release](https://github.com/kush-agra/Dynamic_Walls-app/releases) and place the app in an appropriate location, preferably in the applications folder but you can leave it in the Downloads folder for it to be stealthy-not visible
 
