@@ -29,6 +29,14 @@ Please disable change wallpaper every X minutes in the desktop system preference
 
 2. Right click and open the app (Double click won't work the first time becasue Gatekeeper) and select an images folder ([See image folder format](https://github.com/kush-agra/Dynamic_Walls-app#image-folder-format)), here are the [default mojave wallpapers as JPEG](https://mega.nz/#!V5ZRzBZD!E1FV5ehA27fXsrDIWqt6br_G2mNr_QSXDvlO9bah8dE) (~45MB), you can get the uncompressed PNG's [here](https://mega.nz/#!Y4wy0ATL!YaPuL-tu3sBxevXL8HMO_j9eEfLyVQ4JFpqsH_788zs) (~205MB)
 
+## Uninstallation
+
+Deleting the app normally would technically disable it too but a better way would be to go to the terminal and type
+
+`launchctl unload -w ~/Library/LaunchAgents/Dynamic_walls.Scheduler.plist`
+
+if you use a third party uninstalling app on your mac that should take care of it automatically too
+
 # Image Folder Format
 
 Folder needs to have 16 images
